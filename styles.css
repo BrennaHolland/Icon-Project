@@ -2,34 +2,26 @@ h1 {
     margin-top: 80px;
     font-size: 220%;
     font-weight: 600;
-    font-transform: Arial;
 }
 
 h2 {
     font-size: 150%;
     font-weight: 500;
-    font-style: italic;
-    font-transform: Arial;
+    margin-left: 425px;
+    margin-right: 420px;
 }
 
 h3 {
+    margin-left: 425px;
     font-size: 150%;
     font-weight: 500;
-    font-style: italic;
-    font-transform: Arial;
-}
-
-h4 {
-    font-size: 150%;
-    font-weight: 500;
-    font-transform: Arial;
+    line-height: 10px;
 }
 
 p {
-    font-transform: Arial;
     Margin-top: 50px;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 200px;
+    margin-left: 200px;
     font-size: 150%;
 }
 
@@ -42,15 +34,26 @@ uterus {
 }
 
 .boxed {
-    border: 20px solid mistyRose;
+    margin-left: 200px;
+    margin-right: 100px;
+    font-family: monospace;
 }
 
 .surgery {
     Margin-top: 50px;
 }
 
-.sources {
-    border: 20px solid aliceblue;
-    font-style: italic;
-    font-size: 90%;
+ul {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 150%;
 }
+
+/* mobile styles */
+/* small tablet styles */
+@media screen and (min-width: 620px) {}
+
+/*large tablets and laptop styles */
+@media screen and (min-width: 960px) {}
+
+@media screen and (min-width: 1200px) {}
